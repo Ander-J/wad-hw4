@@ -1,10 +1,10 @@
 import { mount } from '@vue/test-utils'
 import List from "../../src/components/List";
 
-describe('Task1', () => {
+describe('List', () => {
     const wrapper = mount(List);
 
-    it('Check if list is empty', () => {
+    it('Task 1, check if text is displayed properly', () => {
         expect(wrapper.html()).toContain("Add your first Todo task")
     })
 });
